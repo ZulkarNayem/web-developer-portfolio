@@ -29,7 +29,15 @@
     border: none;
     cursor: pointer;
 }
-
+.btn-secondary{
+    background-color: white;
+    font-weight: bold;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    padding: 16px 33px 17px 34px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .section-title{
     font-size: 35px;
     font-weight: bold;
