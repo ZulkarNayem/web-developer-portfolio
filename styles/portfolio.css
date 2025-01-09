@@ -1,10 +1,12 @@
 
-
-.work-sans-normal {
-  font-family: "Work Sans", serif;
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
+
 
 
 /* shared style */
@@ -25,6 +27,7 @@
     padding: 18px 35px 19px 36px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .section-title{
@@ -116,8 +119,13 @@ main section{
     text-align: center;
 }
 .about-all{
-    border: 1px solid black;
-    background-color: white;
+    border-bottom:50px solid #FFF8F3;
+    border-top: 50px solid #FFF8F3;
+    border-left: 100px solid #FFF8F3;
+    border-right: 100px solid #FFF8F3;
+    border-radius: 10px;
+    /* margin: 200px; */
+    /* border: 1px solid black */
 }
 .about-items{
     display: flex;
@@ -155,6 +163,8 @@ main section{
 .resume-container{
     display: flex;
     gap: 24px;
+    padding: 20px 90px 0 90px;
+
 }
 .resume-column-title{
     font-size: 30px;
